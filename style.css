@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+  background-color: black;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.instruction {
+  position: fixed;
+  bottom: 20px;
+  color: white;
+  border-radius: 20px;
+  padding: 14px 24px;
+  background-color: rgba(51, 51, 51, 0.3);
+  box-shadow: 0 1px 4px 0 rgba(21, 28, 37, 0.08);
+}
